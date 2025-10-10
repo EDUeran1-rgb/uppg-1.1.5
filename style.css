@@ -24,13 +24,13 @@ header{
     margin-bottom:5px;
     background-color: rgb(222, 222, 222);
     border: 1px rgb(130, 130, 130) solid;
+    padding:5px;
 }
 #textinfo{
     padding-top: 5px;
     text-align:right;
 }
 #sidpannel{
-    width:100px;
     height:auto;
     border-radius:5px;
     background-color: rgba(238, 255, 0, 0.402);
