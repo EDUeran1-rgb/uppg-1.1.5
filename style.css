@@ -8,7 +8,7 @@ header{
     width:100%;
     text-align: center;
     padding-top: 10px;
-    background-color: #02eeff7a;
+    background-color: rgba(0, 0, 255, 0.717);
 }
 #center_contain{
     display: flex;
@@ -17,18 +17,22 @@ header{
     padding:5px;
 }
 #manytext{
-    height: 500px;
+    height: auto;
     padding:5px;
 }
 #text{
     margin-bottom:5px;
-    background-color: rgb(187, 187, 187);
+    background-color: rgb(222, 222, 222);
+}
+#textinfo{
+    padding-top: 5px;
+    text-align:right;
 }
 #sidpannel{
     width:100px;
-    height:500px;
+    height:auto;
     border-radius:5px;
-    background-color: rgba(238, 255, 0, 0.721);
+    background-color: rgba(238, 255, 0, 0.402);
     padding:5px;
 }
 #linje{
