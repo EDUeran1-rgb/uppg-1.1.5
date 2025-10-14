@@ -23,7 +23,7 @@ if(isset($post['btn'])){
 <body>
     <form action="" method="post">
         <input type="text" name="txt" placeholder="Ange en länk">
-        <input type="submit" value="lagra länk" name="btn">
+        <input type="submit" value="Lagra länk" name="btn">
     </form>
     <?php
     $sql="SELECT * FROM namn";
