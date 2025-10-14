@@ -21,6 +21,7 @@ if(isset($_POST['btn'])){
     <title>Document</title>
 </head>
 <body>
+    <a href="../">tillbaka hem</a>
     <form action="" method="post">
         <input type="text" name="txt" placeholder="Ange en länk">
         <input type="submit" value="Lagra länk" name="btn">
@@ -32,6 +33,6 @@ if(isset($_POST['btn'])){
         echo "<h1>".$row['url']."</h1>";
     }
     ?>
-    <a href="../">tillbaka hem</a>
+    
 </body>
 </html>
