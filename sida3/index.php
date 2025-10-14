@@ -6,8 +6,8 @@ $pass="";
 $dbname="databas1";
 $conn=mysqli_connect($host,$user,$pass,$dbname);
 
-$texten="";
-if(isset($post['btn'])){
+
+if(isset($_POST['btn'])){
     $texten=$_POST['txt'];
     $sql="INSERT INTO namn(url) VALUES ('$texten')";
     $result=mysqli_query($conn,$sql);
