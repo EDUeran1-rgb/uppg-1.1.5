@@ -32,5 +32,6 @@ if(isset($post['btn'])){
         echo "<h1>".$row['url']."</h1>";
     }
     ?>
+    <a href="../">tillbaka hem</a>
 </body>
 </html>
