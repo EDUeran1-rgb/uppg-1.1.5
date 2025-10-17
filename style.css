@@ -5,10 +5,21 @@
 }
 header{
     height: 100px;
-    width:100%;
     text-align: center;
-    padding-top: 10px;
-    background-color: rgba(0, 0, 255, 0.717);
+    padding-top: 34px; 
+    background: radial-gradient(circle, rgb(0, 0, 255), rgb(0,0,0));
+    text-shadow: 2px 1px 0px rgb(0, 0, 0);
+    color:white;
+}
+nav{
+    height: 50px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top:2px solid black;
+    border-bottom: 1px solid black;
 }
 #center_contain{
     display: flex;
@@ -27,23 +38,40 @@ header{
     padding:5px;
 }
 #textinfo{
+    border-top: 1px solid black;
     padding-top: 5px;
     text-align:right;
 }
 #sidpannel{
     height:auto;
     border-radius:5px;
-    background-color: rgba(238, 255, 0, 0.402);
+    background-color: rgba(255, 255, 0);
     padding:5px;
-    width:1000px;
+    width:2000px;
 }
-#linje{
-    height:1px;
-    background-color: black;
+#bildr{
+    width:100%;
+}
+#img1{
+    border-radius:100%;
+    border:2px solid rgb(0, 0, 200);
+}
+#img2{
+    border-radius:100%;
+    border:2px solid rgb(0, 0, 200);
 }
 footer{
+    border-top: 1px solid black;
     padding:5px;
     display: flex;
     justify-content: space-between;
     width:100%;
+}
+@media (max-width: 550px){
+    #img1,#img2{
+        border:none;
+        size:0px;
+        width:0px;
+        height:0px;
+    }
 }
