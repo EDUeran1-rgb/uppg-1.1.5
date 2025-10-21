@@ -36,6 +36,7 @@ nav{
     background-color: rgb(222, 222, 222);
     border: 1px rgb(130, 130, 130) solid;
     padding:5px;
+    border-radius:5px;
 }
 #textinfo{
     border-top: 1px solid black;
